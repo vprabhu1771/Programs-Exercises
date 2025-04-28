@@ -1,0 +1,20 @@
+          #include<stdio.h>
+
+#include<conio.h>
+
+void main()
+{
+	float celsius, fahrenheit;
+
+	clrscr();
+
+	printf("Enter Temp in Celsius\n");
+
+	scanf("%f", &celsius);
+
+	fahrenheit =  (1.8 * celsius) + 32;
+
+	printf("Temperature in fahrenheit : %f\n", fahrenheit);	
+
+	getch();
+}

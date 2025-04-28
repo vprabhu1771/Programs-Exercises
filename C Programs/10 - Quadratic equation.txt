@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include<conio.h>
+#include<math.h>
+
+void main()
+{
+    int a, b, c;
+    
+    float x, y, z;
+    
+    clrscr();
+    
+    printf("Enter values of a, b, c seperated by spaces..\n");
+    scanf("%d%d%d",&a,&b,&c);
+    
+    x = ((b*b) - (4*a*c));
+    
+    if(x>0){
+        printf("Roots are real \n");
+        y = -b+sqrt(x)/2*a;
+        z = -b-sqrt(x)/2*a;
+        
+        printf("The roots are %f, %f",y, z);
+    }
+    else if(x<0){
+        printf("The roots are imaginary");
+    }
+    else{
+        printf("Roots are real and equal\n");
+        y = ((-b)+sqrt(x))/(2*a);
+        z = ((-b)-sqrt(x))/(2*a);
+        printf("the roots are %f, %f \n",y,z);
+    }
+    
+    getch();
+}

@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+void main()
+{
+	char data
+
+	clrscr();
+
+	printf("Enter any character\n");
+
+	scanf("%c", &data);
+
+	printf("Character is %c\n", data);
+
+	printf("ASCII is %d\n", data);
+
+	getch();
+}

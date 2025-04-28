@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int is_alphabet(char data);
+
+int main()
+{
+    printf("%d", is_alphabet('a'));
+
+    return 0;
+}
+
+int is_alphabet(char data)
+{
+    if(data >= 65 && data <= 90 || data >= 97 && data <= 122)
+    {
+        return 1;
+    }
+    else
+    {
+        return -1;
+    }
+}
+   

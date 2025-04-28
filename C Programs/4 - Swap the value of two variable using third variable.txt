@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+void main()
+{
+	float a, b, temp;
+
+	clrscr();
+
+	printf("Enter a value\n");
+
+	scanf("%f", &a);
+
+	printf("Enter b value\n");
+
+	scanf("%f", &b);
+
+	temp = a;
+
+	a = b;
+
+	b = temp;
+
+	printf("a = %f\n", a);	
+
+	printf("b = %f\n", b);	
+
+	getch();
+}

@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+#include<conio.h>
+
+void main()
+{
+    char data;
+    
+    clrscr();
+    
+    printf("Enter an alphabet");
+    
+    scanf("%c", &data);
+    
+    if(data == 'a' || 
+       data == 'A' || 
+       data == 'e' || 
+       data == 'E' || 
+       data == 'i' || 
+       data == 'I' ||
+       data == 'o' ||
+       data == 'O' ||
+       data == 'u' ||
+       data == 'U')
+   {
+       printf("%c is a vowel", data);
+   }
+   else
+   {
+       printf("%c is a consonant", data);
+   }
+    
+    getch();
+}

@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int string_length(char *data);
+
+int main()
+{
+    printf("%d", string_length("prabhu"));
+
+    return 0;
+}
+
+int string_length(char *data)
+{
+    int i = 0;
+    
+    while(data[i] != '\0')
+    {
+        i++;
+    }
+    
+    return i;
+}

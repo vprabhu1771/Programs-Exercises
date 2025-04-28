@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+void string_uppercase(char *data);
+
+int main()
+{
+    char data[10];
+    
+    int i = 0;
+    
+    printf("Enter your name\n");
+    
+    scanf("%s", data);
+    
+    
+    string_uppercase(data);
+
+    return 0;
+}
+
+void string_uppercase(char *data)
+{
+    int i = 0;
+    
+    while(data[i] >= 97 && data[i] <= 122)
+    {
+        data[i] -= 32;
+        
+        i++;
+    }
+    
+    printf("%s", data);
+} 

@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int is_lower(char data);
+
+int main()
+{
+    printf("%d", is_lower('a'));
+
+    return 0;
+}
+
+int is_lower(char data)
+{
+    if(data >= 97 && data <= 122)
+    {
+        return 1;
+    }
+    else
+    {
+        return -1;
+    }
+}

@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+void string_lowercase(char *data);
+
+int main()
+{
+    char data[10];
+    
+    int i = 0;
+    
+    printf("Enter your name\n");
+    
+    scanf("%s", data);
+    
+    
+    string_lowercase(data);
+
+    return 0;
+}
+
+void string_lowercase(char *data)
+{
+    int i = 0;
+    
+    while(data[i] >= 65 && data[i] <= 97)
+    {
+        data[i] += 32;
+        
+        i++;
+    }
+    
+    printf("%s", data);
+}   
