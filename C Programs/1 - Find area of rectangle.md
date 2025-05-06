@@ -54,3 +54,33 @@ int main() {
     return 0;
 }
 ```
+
+# Java
+
+```java
+import java.util.Scanner;
+
+public class RectangleArea {
+    public static void main(String[] args) {
+        int length, breadth, area;
+
+        Scanner scanner = new Scanner(System.in);
+
+        // Input from user
+        System.out.println("Enter Length of Rectangle:");
+        length = scanner.nextInt();
+
+        System.out.println("Enter Breadth of Rectangle:");
+        breadth = scanner.nextInt();
+
+        // Calculate area
+        area = length * breadth;
+
+        // Output results
+        System.out.println("Area of Rectangle " + (length * breadth));
+        System.out.println("Area of Rectangle " + area);
+
+        scanner.close();
+    }
+}
+```
