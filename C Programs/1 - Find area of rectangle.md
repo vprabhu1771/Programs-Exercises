@@ -84,3 +84,18 @@ public class RectangleArea {
     }
 }
 ```
+
+# Python
+
+```python
+# Input from user
+length = int(input("Enter Length of Rectangle: "))
+breadth = int(input("Enter Breadth of Rectangle: "))
+
+# Calculate area
+area = length * breadth
+
+# Output results
+print("Area of Rectangle", length * breadth)
+print("Area of Rectangle", area)
+```
