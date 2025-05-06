@@ -89,3 +89,49 @@ print("ASCII is:", ord(data))  # ord() gives ASCII value
 
 Would you like a version that handles invalid input or multi-character strings gracefully?
 ```
+
+# Tkinter
+
+Here's the **Tkinter (GUI) version in Python** of your original C code that reads a character and displays its ASCII value:
+
+```python
+import tkinter as tk
+from tkinter import messagebox
+
+def show_ascii():
+    text = entry.get()
+    if text:
+        char = text[0]  # Take only the first character
+        ascii_value = ord(char)
+        result = f"Character: {char}\nASCII: {ascii_value}"
+        messagebox.showinfo("Result", result)
+    else:
+        messagebox.showwarning("Input Error", "Please enter a character.")
+
+# Create the main window
+root = tk.Tk()
+root.title("Character to ASCII")
+root.geometry("300x150")
+
+# Label and entry
+label = tk.Label(root, text="Enter any character:")
+label.pack(pady=10)
+
+entry = tk.Entry(root)
+entry.pack()
+
+# Button
+button = tk.Button(root, text="Show ASCII", command=show_ascii)
+button.pack(pady=10)
+
+# Run the app
+root.mainloop()
+```
+
+### Features:
+
+* Simple GUI with a label, entry box, and a button.
+* Uses `messagebox` to display the character and its ASCII value.
+
+Would you like this app to support multiple characters and list ASCII values for all?
+
