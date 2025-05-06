@@ -67,3 +67,25 @@ public class Main {
     }
 }
 ```
+
+# Python
+
+```python
+Here's the equivalent **Python** version of your C code:
+
+```python
+# Python program to read a character and print its ASCII value
+
+data = input("Enter any character: ")[0]  # Get the first character of input
+
+print("Character is:", data)
+print("ASCII is:", ord(data))  # ord() gives ASCII value
+```
+
+### Explanation:
+
+* `input()` reads a string; `[0]` ensures only the first character is used.
+* `ord()` returns the ASCII value of a character.
+
+Would you like a version that handles invalid input or multi-character strings gracefully?
+```
