@@ -88,7 +88,7 @@ print("ASCII is:", ord(data))  # ord() gives ASCII value
 * `ord()` returns the ASCII value of a character.
 
 Would you like a version that handles invalid input or multi-character strings gracefully?
-```
+
 
 # Tkinter
 
