@@ -45,3 +45,25 @@ int main() {
     return 0;
 }
 ```
+
+# Java 
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        char data;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter any character:");
+        data = scanner.next().charAt(0);  // Read the first character of the input
+
+        System.out.println("Character is: " + data);
+        System.out.println("ASCII is: " + (int) data);  // Cast to int to get ASCII value
+
+        scanner.close();
+    }
+}
+```
