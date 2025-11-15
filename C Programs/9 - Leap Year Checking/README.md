@@ -1,9 +1,8 @@
+```c
 #include<stdio.h>
-
 #include<conio.h>
 
 void main()
-
 {
     int year;
     
@@ -20,7 +19,6 @@ void main()
         printf("%d is not a leap year", year);
     }
     
-    getch();
-    
-    
+    getch();  
 }
+```

@@ -1,9 +1,8 @@
+```c
 #include<stdio.h>
-
 #include<conio.h>
 
 void main()
-
 {
     float num;
     
@@ -20,6 +19,6 @@ void main()
         printf("%.2f is negative", num);
     }
     
-    getch();
-    
+    getch();    
 }
+```

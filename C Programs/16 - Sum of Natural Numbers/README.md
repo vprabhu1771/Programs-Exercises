@@ -1,4 +1,5 @@
-#include <stdio.h>
+```c
+#include<stdio.h>
 #include<conio.h>
 
 void main()
@@ -16,3 +17,4 @@ void main()
     printf("Sum = %d", sum);
     getch();
 }
+```

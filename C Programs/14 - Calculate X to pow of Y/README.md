@@ -1,6 +1,6 @@
-#include <stdio.h>
+```c
+#include<stdio.h>
 #include<conio.h>
-
 
 void main()
 {
@@ -19,3 +19,4 @@ void main()
     
     getch();
 }
+```

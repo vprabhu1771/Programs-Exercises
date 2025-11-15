@@ -1,5 +1,5 @@
+```c
 #include<stdio.h>
-
 #include<conio.h>
 
 void main()
@@ -19,6 +19,6 @@ void main()
         printf("%.2f is greater",n3);
     }
     
-    getch();
-    
+    getch(); 
 }
+```
