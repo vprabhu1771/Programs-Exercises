@@ -1,3 +1,4 @@
+```
 #include <stdio.h>
 
 int is_lower(char data);
@@ -20,3 +21,4 @@ int is_lower(char data)
         return -1;
     }
 }
+```
