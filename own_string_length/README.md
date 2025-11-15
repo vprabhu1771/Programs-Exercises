@@ -1,3 +1,4 @@
+```
 #include <stdio.h>
 
 int string_length(char *data);
@@ -20,3 +21,4 @@ int string_length(char *data)
     
     return i;
 }
+```

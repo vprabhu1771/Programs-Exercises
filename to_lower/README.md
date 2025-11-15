@@ -1,3 +1,4 @@
+```
 #include <stdio.h>
 
 char to_lower(char data);
@@ -21,3 +22,4 @@ char to_lower(char data)
     }
     
 }
+```

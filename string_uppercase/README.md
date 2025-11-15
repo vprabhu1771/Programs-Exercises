@@ -1,3 +1,4 @@
+```
 #include <stdio.h>
 
 void string_uppercase(char *data);
@@ -31,3 +32,4 @@ void string_uppercase(char *data)
     
     printf("%s", data);
 } 
+```
