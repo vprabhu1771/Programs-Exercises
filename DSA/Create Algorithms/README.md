@@ -153,3 +153,64 @@ If you want, I can also add:
 ✅ Display highest value
 ✅ Show sorted values
 Just tell me!
+
+
+Here is the **flowchart** for finding the minimum value in an array.
+
+---
+
+# ✅ **Flowchart: Find Minimum Value in an Array**
+
+```
+          ┌──────────────────────┐
+          │      Start           │
+          └──────────┬───────────┘
+                     │
+                     ▼
+     ┌────────────────────────────────┐
+     │ Initialize array: [7,12,9,4,11,8] │
+     └─────────────────┬───────────────┘
+                       │
+                       ▼
+        ┌─────────────────────────┐
+        │ minVal = first element  │
+        │        (7)              │
+        └───────────┬────────────┘
+                    │
+                    ▼
+        ┌─────────────────────────┐
+        │ Loop through each value │
+        └───────────┬────────────┘
+                    │
+             ┌──────▼──────┐
+             │ Is i < min? │
+             └──────┬──────┘
+                    │Yes
+                    ▼
+        ┌─────────────────────────┐
+        │   Update minVal = i     │
+        └───────────┬────────────┘
+                    │
+                    │No
+                    ▼
+         ┌────────────────────────┐
+         │   More items in list?  │
+         └───────────┬────────────┘
+                     │Yes
+                     ▼
+                  (Repeat)
+                     │
+                     ▼ No
+        ┌─────────────────────────┐
+        │ Print Lowest value (4) │
+        └───────────┬────────────┘
+                    │
+                    ▼
+          ┌──────────────────────┐
+          │         End          │
+          └──────────────────────┘
+```
+
+---
+
+If you want, I can also generate this flowchart as an **image**.
