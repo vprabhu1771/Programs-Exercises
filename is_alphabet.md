@@ -1,3 +1,4 @@
+```
 #include <stdio.h>
 
 int is_alphabet(char data);
@@ -20,4 +21,4 @@ int is_alphabet(char data)
         return -1;
     }
 }
-   
+```
