@@ -23,7 +23,7 @@ void string_lowercase(char *data)
 {
     int i = 0;
     
-    while(data[i] >= 65 && data[i] <= 97)
+    while(data[i] >= 65 && data[i] <= 90)
     {
         data[i] += 32;
         
