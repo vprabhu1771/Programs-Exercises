@@ -1,3 +1,5 @@
+# C
+
 ```c
 #include<stdio.h>
 
@@ -24,6 +26,8 @@ void main()
 	printf("b = %f\n", b);
 }
 ```
+
+# CPP
 
 ```cpp
 #include<iostream>
