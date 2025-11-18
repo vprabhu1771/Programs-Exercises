@@ -1,12 +1,11 @@
+# C
+
 ```c
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
     char data;
-    
-    clrscr();
     
     printf("Enter an alphabet");
     
@@ -30,6 +29,43 @@ void main()
        printf("%c is a consonant", data);
    }
     
-    getch();
+    return 0;
+}
+```
+
+# CPP
+
+```cpp
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    char data;
+    
+    cout << "Enter an alphabet" <<endl;
+    
+    cin >> data;
+    
+    if(data == 'a' || 
+       data == 'A' || 
+       data == 'e' || 
+       data == 'E' || 
+       data == 'i' || 
+       data == 'I' ||
+       data == 'o' ||
+       data == 'O' ||
+       data == 'u' ||
+       data == 'U')
+   {       
+        cout << data << " is a vowel" << endl;
+   }
+   else
+   {       
+        cout << data << " is a consonant" << endl;
+   }
+    
+    return 0;
 }
 ```
