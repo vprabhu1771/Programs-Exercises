@@ -1,12 +1,11 @@
+# C
+
 ```c
 #include<stdio.h>
-#include<conio.h>
 
-void main()
+int main()
 {
 	int num;
-
-	clrscr();
 
 	printf("Enter any integer\n");
 
@@ -21,6 +20,6 @@ void main()
 		printf("%d is odd\n", num);
 	}
 
-	getch();
+	return 0;
 }
 ```
