@@ -112,7 +112,16 @@ for i in range(1, n):
 
 print("Largest Element:", largest)
 ```
-
+# OUTPUT
+```
+Enter number of elements: 5
+1
+2
+3
+4
+5
+Largest Element: 5
+```
 ---
 
 # ✅ **Python Tkinter Program (GUI)**
