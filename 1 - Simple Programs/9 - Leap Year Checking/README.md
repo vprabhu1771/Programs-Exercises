@@ -1,3 +1,64 @@
+Your current logic is **not correct** for detecting leap years or century years.
+Let’s break the rules first:
+
+### ✅ Leap Year Rules
+
+A year is a leap year if:
+1️⃣ Divisible by 400 → **Leap Year**
+2️⃣ Divisible by 100 but not 400 → **Century but Not a Leap Year**
+3️⃣ Divisible by 4 but not 100 → **Leap Year**
+Else → **Not a Leap Year**
+
+---
+
+### ✔ Corrected C Program
+
+```c
+#include <stdio.h>
+
+int main() {
+    int year;
+
+    printf("Enter a year: ");
+    scanf("%d", &year);
+
+    if (year % 400 == 0) {
+        printf("%d is a leap year (century leap year)", year);
+    }
+    else if (year % 100 == 0) {
+        printf("%d is a century year but not a leap year", year);
+    }
+    else if (year % 4 == 0) {
+        printf("%d is a leap year", year);
+    }
+    else {
+        printf("%d is not a leap year", year);
+    }
+
+    return 0;
+}
+```
+
+---
+
+### 📌 Example Outputs
+
+| Input year | Output                                     |
+| ---------- | ------------------------------------------ |
+| 2000       | 2000 is a leap year (century leap year)    |
+| 1900       | 1900 is a century year but not a leap year |
+| 2024       | 2024 is a leap year                        |
+| 2023       | 2023 is not a leap year                    |
+
+---
+
+If you want, I can also show:
+✔ Version with `else if` simplified
+✔ Only check leap year without century message
+✔ Switch-case style (conceptual)
+
+Would you like any of those versions?
+
 # C
 
 ```c
