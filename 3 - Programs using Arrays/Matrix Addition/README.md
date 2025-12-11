@@ -25,11 +25,11 @@ int main()
 
     printf("Enter first matrix value\n");
 
-    for(i = 0, i < row, i++)
+    for(i = 0; i < row; i++)
     {
-        for(j = 0, j < row, j++)
+        for(j = 0; j < row; j++)
         {
-            printf("row = %d : col = %d\n");
+            printf("row = %d : col = %d\n", i, j);
 
             scanf("%d", &x[i][j]);            
         }
@@ -37,11 +37,11 @@ int main()
 
     printf("Enter second matrix value\n");
 
-    for(i = 0, i < row, i++)
+    for(i = 0; i < row; i++)
     {
-        for(j = 0, j < row, j++)
+        for(j = 0; j < row; j++)
         {
-            printf("row = %d : col = %d\n");
+            printf("row = %d : col = %d\n", i, j);
 
             scanf("%d", &y[i][j]);            
         }
@@ -49,9 +49,9 @@ int main()
 
     printf("Matrix Additon\n");
 
-    for(i = 0, i < row, i++)
+    for(i = 0; i < row; i++)
     {
-        for(j = 0, j < row, j++)
+        for(j = 0; j < row; j++)
         {
            result[i][j] = x[i][j] + y[i][j];
            
