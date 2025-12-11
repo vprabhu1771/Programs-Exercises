@@ -27,7 +27,7 @@ int main()
 
     for(i = 0; i < row; i++)
     {
-        for(j = 0; j < row; j++)
+        for(j = 0; j < col; j++)
         {
             printf("row = %d : col = %d\n", i, j);
 
@@ -39,7 +39,7 @@ int main()
 
     for(i = 0; i < row; i++)
     {
-        for(j = 0; j < row; j++)
+        for(j = 0; j < col; j++)
         {
             printf("row = %d : col = %d\n", i, j);
 
@@ -51,7 +51,7 @@ int main()
 
     for(i = 0; i < row; i++)
     {
-        for(j = 0; j < row; j++)
+        for(j = 0; j < col; j++)
         {
            result[i][j] = x[i][j] + y[i][j];
            
