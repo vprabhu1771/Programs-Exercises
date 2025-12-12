@@ -48,6 +48,7 @@ int size() {
 int main() {
     push(10);
     push(20);
+    printf("%s\n", isEmpty() ? "Empty" : "Not Empty");
     printf("Top = %d\n", peek());
     printf("Popped = %d\n", pop());
     printf("Size = %d\n", size());
@@ -69,6 +70,7 @@ int main() {
     st.push(10);
     st.push(20);
 
+    cout << isEmpty() ? "Empty" : "Not Empty" << endl;
     cout << "Top: " << st.top() << endl;
     cout << "Size: " << st.size() << endl;
 
