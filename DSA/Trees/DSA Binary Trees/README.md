@@ -1,3 +1,8 @@
+#  Binary Search Tree in Tamil | Data Structures and Algorithms CD3291 Lectures in Tamil 
+```
+https://www.youtube.com/watch?v=r4r_qE2fCs0
+```
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
