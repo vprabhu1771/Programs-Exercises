@@ -1,3 +1,13 @@
+#  Dijkstra's Algorithm in Tamil | Data Structures and Algorithms in Tamil | CD3291 Lectures in Tamil 
+```
+https://www.youtube.com/watch?v=pvWCHgHGG3g
+```
+
+#  Dijkstra's Algorithm in Tamil | Type 2 | Data Structures and Algorithms in Tamil | CD3291 in Tamil 
+```
+https://www.youtube.com/watch?v=ihjD6WUG38w
+```
+
 Below is a **complete DSA explanation of Dijkstra’s Algorithm** with
 ✔ **Step-by-step working**
 ✔ **C program**
