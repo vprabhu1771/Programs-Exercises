@@ -13,6 +13,8 @@ int main() {
     printf("Enter Temperature in Celsius: ");
     scanf("%f", &celsius);
 
+    // F = (1.8 * C) + 32
+    // F = (9/5 * C) + 32
     fahrenheit = (1.8 * celsius) + 32;
 
     printf("Temperature in Fahrenheit: %.2f\n", fahrenheit);
