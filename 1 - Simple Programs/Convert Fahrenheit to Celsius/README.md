@@ -18,6 +18,47 @@ int main()
 }
 ```
 
+Your C++ program converted to Java:
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        float celsius, fahrenheit;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Temperature in Fahrenheit: ");
+        fahrenheit = sc.nextFloat();
+
+        // C = (F - 32) * 5 / 9
+        celsius = (fahrenheit - 32) * 5 / 9;
+
+        System.out.println("Temperature in Celsius: " + celsius);
+
+        sc.close();
+    }
+}
+```
+
+### Sample Output
+
+```
+Enter Temperature in Fahrenheit: 98.6
+Temperature in Celsius: 37.0
+```
+
+### Formula Used
+
+C=(F-32)\times\frac{5}{9}
+
+Where:
+
+* **C** = Celsius
+* **F** = Fahrenheit
+
+
 Here’s the equivalent Python version of your C program:
 
 ```python
