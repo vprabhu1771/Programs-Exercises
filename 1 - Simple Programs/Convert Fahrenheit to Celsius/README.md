@@ -18,7 +18,7 @@ int main()
 }
 ```
 
-Your C++ program converted to Java:
+# JAVA
 
 ```java
 import java.util.Scanner;
