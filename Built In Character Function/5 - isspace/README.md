@@ -19,7 +19,7 @@ OUTPUT
 is spacebar 1
 ```
 
-## C++ – `isspace()` Example
+## C++
 
 ```cpp
 #include <iostream>
@@ -39,7 +39,7 @@ int main()
 
 ---
 
-## Java – `Character.isWhitespace()` Example
+## Java
 
 ```java
 public class Main {
@@ -54,7 +54,7 @@ public class Main {
 
 ---
 
-## Python – `isspace()` Example
+## Python
 
 ```python
 data = ' '
