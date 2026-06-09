@@ -1,8 +1,28 @@
-## Find Area of Circle
+# Area of Circle
 
-### Formula
+## Formula
 
-genui{"math_block_widget_always_prefetch_v2":{"content":"A=\pi r^2"}}
+$$
+A = \pi r^2
+$$
+
+Where:
+
+- A = Area of Circle
+- r = Radius of Circle
+- π = 3.14159
+
+## Example
+
+If radius = 5
+
+$$
+A = \pi \times 5^2
+$$
+
+$$
+A = 78.54
+$$
 
 Where:
 
