@@ -12,7 +12,8 @@ int main()
 
 	return 0;
 }
-
+```
+```
 OUTPUT
 
 absolute value 22
