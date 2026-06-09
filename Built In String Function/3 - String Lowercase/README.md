@@ -1,4 +1,4 @@
-### C – String Lowercase
+### C
 
 ```c
 #include <stdio.h>
@@ -19,7 +19,7 @@ int main()
 
 ---
 
-### C++ – String Lowercase
+### C++
 
 ```cpp
 #include <iostream>
@@ -45,7 +45,7 @@ int main()
 
 ---
 
-### Java – String Lowercase
+### Java
 
 ```java
 import java.util.Scanner;
@@ -66,7 +66,7 @@ public class Main {
 
 ---
 
-### Python – String Lowercase
+### Python
 
 ```python
 name = input("Enter name: ")
