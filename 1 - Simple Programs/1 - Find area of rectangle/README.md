@@ -3,13 +3,9 @@
 ```c
 #include<stdio.h>
 
-#include<conio.h>
-
-void main()
+int main()
 {
 	int length, breadth, area;
-
-	clrscr();
 
 	printf("Enter Length of Rectangle\n");
 
@@ -25,7 +21,7 @@ void main()
 
 	printf("Area of Rectangle %d\n", area);	
 
-	getch();
+	return 0;
 }
 ```
 # CPP
