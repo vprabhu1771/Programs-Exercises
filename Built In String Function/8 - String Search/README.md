@@ -18,7 +18,7 @@ int main()
 
 	scanf("%s", search);
 
-	if(strstr(data, search))
+	if(strstr(name, search))
 		puts("found");
 	else
 		puts("not found");
