@@ -1,5 +1,72 @@
 Your C program stores two dates of birth using a structure and prints them.
 
+### C Program Using Structure
+
+```c
+#include <stdio.h>
+
+struct date_of_birth
+{
+    int date;
+    int month;
+    int year;
+};
+
+int main()
+{
+    struct date_of_birth abi, ram;
+
+    abi.date = 3;
+    abi.month = 8;
+    abi.year = 1992;
+
+    ram.date = 23;
+    ram.month = 3;
+    ram.year = 1990;
+
+    printf("%d-%d-%d\n", abi.date, abi.month, abi.year);
+    printf("%d-%d-%d\n", ram.date, ram.month, ram.year);
+
+    return 0;
+}
+```
+
+### Output
+
+```text
+3-8-1992
+23-3-1990
+```
+
+### Alternative: Structure Initialization
+
+```c
+#include <stdio.h>
+
+struct date_of_birth
+{
+    int date;
+    int month;
+    int year;
+};
+
+int main()
+{
+    struct date_of_birth abi = {3, 8, 1992};
+    struct date_of_birth ram = {23, 3, 1990};
+
+    printf("%d-%d-%d\n", abi.date, abi.month, abi.year);
+    printf("%d-%d-%d\n", ram.date, ram.month, ram.year);
+
+    return 0;
+}
+```
+
+**Topic:** Structure in C (User-defined Data Type)
+**Structure Name:** `date_of_birth`
+**Structure Members:** `date`, `month`, `year`
+**Objects:** `abi`, `ram`
+
 ### C++ Version
 
 ```cpp
