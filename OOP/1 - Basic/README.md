@@ -32,6 +32,96 @@ int main()
 }
 ```
 
+### C++ Version Using Class
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class DateOfBirth
+{
+private:
+    int date;
+    int month;
+    int year;
+
+public:
+    void setData(int d, int m, int y)
+    {
+        date = d;
+        month = m;
+        year = y;
+    }
+
+    void display()
+    {
+        cout << date << "-" << month << "-" << year << endl;
+    }
+};
+
+int main()
+{
+    DateOfBirth abi, ram;
+
+    abi.setData(3, 8, 1992);
+    ram.setData(23, 3, 1990);
+
+    abi.display();
+    ram.display();
+
+    return 0;
+}
+```
+
+### Output
+
+```text
+3-8-1992
+23-3-1990
+```
+
+### Constructor Version (Better Approach)
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class DateOfBirth
+{
+private:
+    int date;
+    int month;
+    int year;
+
+public:
+    DateOfBirth(int d, int m, int y)
+    {
+        date = d;
+        month = m;
+        year = y;
+    }
+
+    void display()
+    {
+        cout << date << "-" << month << "-" << year << endl;
+    }
+};
+
+int main()
+{
+    DateOfBirth abi(3, 8, 1992);
+    DateOfBirth ram(23, 3, 1990);
+
+    abi.display();
+    ram.display();
+
+    return 0;
+}
+```
+
+This class version demonstrates **data members**, **member functions**, **object creation**, and optionally **constructors**.
+
+
 ### Java Version
 
 ```java
